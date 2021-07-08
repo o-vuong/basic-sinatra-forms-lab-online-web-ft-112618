@@ -13,7 +13,7 @@ gem 'require_all'
 
 group :test do
   gem 'rspec'
-  gem 'capybara'
+  gem 'capybara', '>= 2.18.0'
   gem 'rack-test'
-  gem 'poltergeist'
+  gem 'poltergeist', '>= 1.17.0'
 end
