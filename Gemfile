@@ -14,6 +14,6 @@ gem 'require_all'
 group :test do
   gem 'rspec'
   gem 'capybara'
-  gem 'rack-test'
+  gem 'rack-test', '>= 2.0.0'
   gem 'poltergeist'
 end
